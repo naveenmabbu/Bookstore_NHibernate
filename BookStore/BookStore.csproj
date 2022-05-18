@@ -191,6 +191,7 @@
     <Compile Include="Controllers\AddressController.cs" />
     <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -203,6 +204,7 @@
     <Compile Include="Models\AddressTypeModel.cs" />
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\CartModel.cs" />
+    <Compile Include="Models\FeedbackModel.cs" />
     <Compile Include="Models\ForgotPassModel.cs" />
     <Compile Include="Models\JWTToken.cs" />
     <Compile Include="Models\MSMQ.cs" />

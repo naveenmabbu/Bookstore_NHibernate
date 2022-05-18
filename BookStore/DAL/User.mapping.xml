@@ -68,4 +68,16 @@
 		<property name="BookId"/>
 		<property name="AddressId"/>
 	</class>
+    <class name="FeedbackModel" table="Feedback" dynamic-update="true">
+		<cache usage="read-write" />
+		<id name="FeedbackId" column="FeedbackId" type="int">
+			<generator class="native" />
+		</id>
+		<property name="Comment"/>
+		<property name="Rating"/>
+		<property name="UserId"/>
+		<property name="BookId"/>
+		
+
+	</class>
 </hibernate-mapping>
